@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Criativa</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="content">
+            <section class='content__home-left'>  
+                <div class="content__home-logo">
+                    <img src="assets/img/logo.png">
+                </div>
+                <div class="content__home-text">     
+                    <div class="content__home-description">
+                        <p>Ficar em casa em periodos longos, não deve ser nada fácil.</p></br>
+                        <p>Iremos catalogar ideias,<strong> brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.</p></br>
+                        <p>Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.</p></br>
+                    </div>
+                </div>
+                <div class="content__home-button">    
+                    <div class="button-first">
+                        <a href="">+ Adicionar ideia</a>
+                    </div>
+                    <div class="button-second">
+                        <a href="ideias.html">Ver ideias</a>
+                    </div>
+                </div>    
+            </section>
+            <section class='content__home-right'>
+                <ul>
+                    <li class="idea__content">
+                        <div>
+                            <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg">
+                        </div>
+                        <div>
+                            <p class="idea__content tittle">Cursos de programação</p>
+                            <p class="idea__content subtittle ">Estudo</p>
+                            <p class="idea__content text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia debitis quia at omnis tenetur consectetur corporis eligendi dolore, praesentium, vel non est doloribus sed quis. </p>
+                            <a class="idea__content button">Ir para a ideia</a>
+                        </div>
+                    </li>
+                    <li class="idea__content">
+                        <div>
+                            <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg">
+                        </div>
+                        <div>
+                            <p class="idea__content tittle">Exercicios</p>
+                            <p class="idea__content subtittle ">Saúde</p>
+                            <p class="idea__content text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia debitis quia at omnis tenetur consectetur corporis eligendi dolore, praesentium, vel non est doloribus sed quis. </p>
+                            <a class="idea__content button">Ir para a ideia</a>
+                        </div>
+                    </li>
+                    <li class="idea__content">
+                        <div>
+                            <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg">
+                        </div>
+                        <div>
+                            <p class="idea__content tittle">Meditação</p>
+                            <p class="idea__content subtittle ">Mentalidade</p>
+                            <p class="idea__content text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia debitis quia at omnis tenetur consectetur corporis eligendi dolore, praesentium, vel non est doloribus sed quis. </p>
+                            <a class="idea__content button">Ir para a ideia</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="modal">
+            <form>
+                <p class="modal-tittle">Nova Ideia</p>
+                <div class="content__form-input">    
+                    <div>
+                        <label for="tittle"> Titulo da ideia</label>
+                        <input class="content__form-data" type="text">
+                    </div>
+                    <div>
+                        <label for="category"> Categoria</label>
+                        <input class="content__form-data" type="text">
+                    </div>
+                </div> 
+                <div class="content__form-link">
+                    <label for="link_image">Link da imagem</label>
+                    <input class="content__form-data-link" type="text">
+                </div>
+                <div class="content__form-text-area">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+					<textarea class="content__form-text-box" cols="20" rows="5" id="message"></textarea>
+                </div> 
+                <div class="content__form-link">
+                    <label for="link_idea">Link da ideia</label>
+                    <input class="content__form-data-link" type="text">
+                </div>  
+                <div class="content__form-buttons">
+                    <button class="button-return">Voltar</button>
+                    <input type="submit" value="Salvar" class="content__form-submit-button">
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
